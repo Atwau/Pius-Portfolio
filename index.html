@@ -7,12 +7,13 @@
 
     <!--to normalize the appearance of the website in all the browsers-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <!--link to font awesome for the social icons at the bottom-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
     <!--link to google fonts-->
     <link href="https://fonts.googleapis.com/css>family=Source+Code+Pro:400,900]Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
     <!--link to my css-->
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/1b861133ce.js"></script>
 
 
   </head>
@@ -27,18 +28,18 @@
       </button>
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"> <a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item"> <a href="#services" class="nav-link">My Services</a></li>
-          <li class="nav-item"> <a href="#about" class="nav-link">About Me</a></li>
-          <li class="nav-item"> <a href="#work" class="nav-link">My Work</a></li>
-          <li class="nav-item"> <a href="#" class="nav-link">Enterprises</a></li>
+          <li class="nav-item"> <a href="home page.html" class="nav-link">Home</a></li>
+          <li class="nav-item"> <a href="services.html" class="nav-link">My Services</a></li>
+          <li class="nav-item"> <a href="about.html" class="nav-link">About Me</a></li>
+          <li class="nav-item"> <a href="work.html" class="nav-link">My Work</a></li>
+          <li class="nav-item"> <a href="enterprises.html" class="nav-link">Enterprises</a></li>
         </ul>
       </nav>
     </header>
     <!--Introduction-->
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">Hi!, I am <strong>Pius Atwau</strong></h1>
-      <p class="section__subtitle section__subtitle--intro">Medical Doctor, and Freelancer</p>
+      <p class="section__subtitle section__subtitle--intro">Medical Intern, and Freelancer</p>
       <img src="/Pius Portfolio/IMG/IMG_3.jpg" alt="My Picture" class="intro__img">
       <!--Medical Doctor, Data scientist, Python Programmer, Graphics Designer and  a Project Manager based-in UGANDA-->
     </section>
@@ -161,13 +162,14 @@ This is where my journey in the field of neurosurgery started</p>
 
     <!--My Work-->
     <section class="My-Work" id="work">
-      <h2 class="section__title--work">My Work</h2>
+      <h2 class="section__title--work">My Gallery</h2>
       <p class="section__subtitle--work">A selection of my range of work</p>
 
       <div class="portfolio">
         <a href="#" class="portfolio_item" >
           <img src="/Pius Portfolio/IMG/RCS Advert.png" alt="RCS Advert" class="portfolio_img">
         </a>
+        <!--
         <a href="#" class="portfolio_item" >
           <img src="/Pius Portfolio/IMG/RCS signs and logos.png" alt="logo designs" class="portfolio_img">
         </a>
@@ -192,34 +194,57 @@ This is where my journey in the field of neurosurgery started</p>
         <a href="#" class="portfolio_item" >
           <img src="My finished work" alt="logo designs" class="portfolio_img">
         </a>
+      -->
       </div>
     </section>
     <!--/My Work-->
 
     <!--Footer-->
-    <footer>
+    <footer class="footer">
       <a href="mailto:atwaup7@gmail.com" class="footer_link">atwaup7@gmail.com</a>
       <ul class="social-list">
         <li class="social-list_item">
-          <a class="social-list_link" href="https://github.com/Atwau/">GitHub</a>
+          <a class="social-list_link" href="https://github.com/Atwau/">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="social-list_item">
-          <a class="social-list_link" href="https://www.linkedin.com/in/pius-atwau-b677a2193">LinkedIn</a>
+          <a class="social-list_link" href="https://www.linkedin.com/in/pius-atwau-b677a2193">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="social-list_item">
-          <a class="social-list_link" href="https://www.facebook.com/pius.arithm/">Face Book</a>
+          <a class="social-list_link" href="https://www.facebook.com/pius.arithm/">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="social-list_item">
-          <a class="social-list_link" href="https://twitter.com/AtwauPi">Twitter</a>
+          <a class="social-list_link" href="https://twitter.com/AtwauPi">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="social-list_item">
-          <a class="social-list_link" href="https://www.instagram.com/pius_ai?r=nametag">Instagram</a>
+          <a class="social-list_link" href="https://www.instagram.com/pius_ai?r=nametag">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="social-list_item">
-          <a class="social-list_link" href="#">whats app</a>
+          <a class="social-list_link" href="#">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </a>
         </li>
+        <li class="social-list_item">
+          <a class="social-list_link" href="#">
+            <i class="fa fa-telegram" aria-hidden="true"></i>
+          </a>
+        </li>
+
       </ul>
     </footer>
+
+    <script src="js/index.js" charset="utf-8"></script>
+
+    </script>
     <!--/Footer-->
   </body>
 </html>
